@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * An open helper that reads SQL statements from asssets.
+ * An open helper that reads SQL statements from assets.
  *
  * @author Adam Stroud &#60;<a href="mailto:adam.stroud@gmail.com">adam.stroud@gmail.com</a>&#62;
  */
