@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * TODO
+ * An open helper that reads SQL statements from assses.
  *
  * @author Adam Stroud &#60;<a href="mailto:adam.stroud@gmail.com">adam.stroud@gmail.com</a>&#62;
  */
@@ -23,6 +23,13 @@ public class SimpleOpenHelper extends SQLiteOpenHelper {
     private final Context context;
     private final String dbName;
 
+    /**
+     * Creates a new instance of the simple open helper.
+     *
+     * @param context Context to to read assets. This will be help by the instance.
+     * @param dbName The file name of the database
+     * @param schemaVersion The version of the databse.
+     */
     public SimpleOpenHelper(Context context, String dbName, int schemaVersion) {
         super(context, dbName, null, schemaVersion);
 
