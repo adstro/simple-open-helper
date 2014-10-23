@@ -1,4 +1,4 @@
-package com.adstrosoftware.simpleopenhelper;
+package me.adamstroud.simpleopenhelper;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -28,7 +28,7 @@ public class SimpleOpenHelper extends SQLiteOpenHelper {
      *
      * @param context Context to to read assets. This will be help by the instance.
      * @param dbName The file name of the database
-     * @param schemaVersion The version of the databse.
+     * @param schemaVersion The version of the database.
      */
     public SimpleOpenHelper(Context context, String dbName, int schemaVersion) {
         super(context, dbName, null, schemaVersion);
